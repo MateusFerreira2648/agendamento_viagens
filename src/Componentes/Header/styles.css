@@ -54,6 +54,11 @@ header .header__content nav .nav__button .user-name {
     padding: 0px;
 }
 
+header .header-container {
+        margin-bottom: 20px;
+  }
+  
+
 a {
     font-family: 'Open Sans';
     font-style: normal;

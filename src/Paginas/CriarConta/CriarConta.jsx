@@ -54,7 +54,8 @@ const CriarConta = () => {
 
             <div className="body__content">
                 <div className="body__content--text">
-                    <Title title="Compartilhe as impressões sobre os Browser games que você já jogou..." color="#f7b84b" />
+                    <Title title="Olá usúario realize seu cadastro no sistema para 
+                    ter acesso ao gerenciamento de viagens" color="#f7b84b" />
                 </div>
                 <div className="body__content--form">
                     <Text text="Ficha de Cadastro" />

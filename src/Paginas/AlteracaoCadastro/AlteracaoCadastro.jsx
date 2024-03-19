@@ -6,7 +6,6 @@ import { Text } from '../../Componentes/Text/Text.jsx';
 import { useForm } from 'react-hook-form';
 import { Input } from '../../Componentes/Input/Input.jsx';
 import { MdAccountCircle, MdEmail, MdLock, MdOutlineCalendarMonth, MdMap } from 'react-icons/md'
-import { Button } from '../../Componentes/Button/Button.jsx';
 import { api } from '../../Services/api';
 import { useNavigate } from 'react-router-dom';
 import { format } from 'date-fns';
@@ -163,4 +162,4 @@ const AlteracaoCadastro = () => {
   );
 };
 
-export { AlteracaoCadastro };
+export { AlteracaoCadastro }
