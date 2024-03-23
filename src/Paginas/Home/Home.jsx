@@ -16,16 +16,16 @@ const Home = () => {
             <body>
                 <div className="body__content">
                     <div className="body__content--text">
-                        <Title title="Gerenciador de Viagens" color="#f7b84b" />
+                        <Title title="Gerenciador de Viagens" color="#0f014d" />
                         <Text text="Bem-vindo ao Gerenciador de Viagens ECO. Essa é uma aplicação web desenvolvida para facilitar a gestão de logística 
-                                    da Secretária de Saúde do Município de Guaranésia." />
+                                    da Secretária de Saúde do Município de Tapiratiba." />
                         <Link to="/login">
                             <button className="button--assine">Começar agora</button>
                         </Link>  
                     </div>
                     <div className="body__content--logo">
                         <figure>
-                            <img src={logo} alt="ECO tecnologia" title="ECO tecnologia" />
+                            <img src={logo} alt="Saúde Tour" title="Saúde Tour" />
                         </figure>
                     </div>                    
                 </div>

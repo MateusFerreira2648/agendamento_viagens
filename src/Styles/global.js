@@ -12,44 +12,36 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 body {
-  background: #10162E;
-  background: linear-gradient(1deg,#10162E 0%, #000000 80%);
-  background: -webkit-linear-gradient(1deg,#10162E 0%, #000000 80%);
-  background: -moz-linear-gradient(1deg,#10162E 0%, #000000 80%);
-  
-  color: #ffffff;
+  background: #f2f2f2; /* Um tom suave de cinza */
+  color: #333333; /* Cor de texto mais escura */
+  font-family: 'Raleway', sans-serif; /* Usando a fonte Raleway */
 }
 
 :root {
-  --primary-color: #10162E;
-  --secondary-color: #10162E;
-  --tertiary-color: #000000;
+  --primary-color: #1E88E5; /* Azul suave */
+  --secondary-color: #42A5F5; /* Azul mais claro */
+  --tertiary-color: #BDBDBD; /* Cinza mais claro */
   
   --btn-bg-color-gradient: linear-gradient(
     45deg,
     #9b34ef 0%,
-    #10162E 20%,
+    #1E88E5 20%, /* Azul suave como cor de gradiente */
     transparent 50%
   );
 
-  --btn-link-bg-color: #fff;
-  --btn-link-color: #000;
-  --card-bg-color: linear-gradient(0deg, transparent, #3b1e63);
-  
-  --divider-bg-color: linear-gradient(
-    90deg,
-    #5516ba,
-    rgba(255, 0, 229, 0.5) 80%
-  );
+  --btn-link-bg-color: #ffffff; /* Branco para botões de link */
+  --btn-link-color: #333333; /* Texto escuro para botões de link */
+  --card-bg-color: #ffffff; /* Fundo branco para cartões */
 
-  --nav-bg-color: rgba(0, 0, 0, 0.3);
-  --text-color: #fff;
-  --link-color: #9e86ff;
-  --form-bg-color: rgba(211, 211, 211, 0.06);
-  --form-field-bg-color: rgba(0, 0, 0, 0.2);
-  --form-field-border: 1px solid rgba(255, 255, 255, 0.7);
-  --form-field-placeholder: rgba(255, 255, 255, 0.7);
-  --form-field-error: rgb(255, 76, 76);
+  --divider-bg-color: #9e86ff; /* Roxo claro para divisores */
+  --nav-bg-color: rgba(0, 0, 0, 0.1); /* Cor de fundo translúcida para navegação */
+  --text-color: #333333; /* Cor de texto mais escura */
+  --link-color: #1E88E5; /* Azul suave para links */
+  --form-bg-color: rgba(211, 211, 211, 0.06); /* Fundo translúcido para formulários */
+  --form-field-bg-color: #ffffff; /* Fundo branco para campos de formulário */
+  --form-field-border: 1px solid #BDBDBD; /* Borda cinza claro para campos de formulário */
+  --form-field-placeholder: #BDBDBD; /* Texto de espaço reservado cinza claro para campos de formulário */
+  --form-field-error: rgb(255, 76, 76); /* Cor de erro para campos de formulário */
 
   scroll-behavior: smooth;
 }

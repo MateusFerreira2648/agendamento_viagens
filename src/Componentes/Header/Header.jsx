@@ -39,8 +39,8 @@ const Header = () => {
               <Link to="/">
                 <img
                   src={logo}
-                  alt="ECO Tecnologia"
-                  title="ECO Tecnologia"
+                  alt="Saúde Tour"
+                  title="Saúde Tour"
                 />
               </Link>
             </figure>
