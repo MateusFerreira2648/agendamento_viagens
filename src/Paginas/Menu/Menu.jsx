@@ -28,7 +28,7 @@ const Menu = ({ isAdmin }) => { // Recebe uma propriedade isAdmin para indicar s
                                 <td>
                                     <Link to="/cadastro-motorista" >
                                         <img src={iconMotorista} alt="cadastrarmotorista" width="150" height="150" />
-                                        <br />
+                                        <br/>
                                         <strong className="menu-link">Cadastrar Motorista</strong>
                                     </Link>
                                 </td>

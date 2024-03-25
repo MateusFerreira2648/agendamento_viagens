@@ -56,7 +56,7 @@ const Login = ({ email, password }) => {
             <body>
                 <div className="body__content">
                     <div className="body__content--text">
-                        <Title title="Usúario favor realizar seu login..." color="#f7b84b" />
+                        <Title title="Usúario favor realizar seu login..." color="#0f014d" />
                         <Text text="Caso ainda não possua login, favor realizar seu cadastro no sistema." />
                     </div>
                     <div className="body__content--form">
@@ -99,8 +99,9 @@ const Login = ({ email, password }) => {
                         </form>
 
                         <div>
-                            <Link to="/recuperar-senha" className="esqueci-text">Esqueci minha senha </Link>
-                            <Link to="/criar-conta" className="criar-text"> Criar Conta</Link>
+                            <p><Link to="/recuperar-senha"> <span className="esqueci-text">Esqueci minha senha</span> </Link></p>
+                            <br/>
+                            <p><Link to="/criar-conta"> <span className="criar-text">Criar Conta</span></Link></p>
                         </div>
                     </div>
                 </div>

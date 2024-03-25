@@ -68,13 +68,13 @@ form {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 15px!important;
     line-height: 19px;
-    color: #f7b84b;
+    color: #0f014d!important;
 }
 
 span {
-    color: #f7b84b;
+    color: #0f014d;
     font-size: 14px;
     margin-top: 5px;
 }
